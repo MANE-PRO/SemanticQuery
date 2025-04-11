@@ -1,0 +1,21 @@
+{
+  "name": "postgres-trigger-extractor",
+  "version": "1.0.0",
+  "description": "A project to extract triggers from a PostgreSQL database in their original form.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.7.1"
+  },
+  "keywords": [
+    "postgres",
+    "triggers",
+    "database",
+    "extractor"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
